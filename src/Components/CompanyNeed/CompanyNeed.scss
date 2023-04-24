@@ -1,0 +1,53 @@
+.company-need-main-div{
+    
+        margin: 0 30px;
+        background: #66380f;
+        color: #ffffff;
+        border: 1px solid #a56126;
+        // display: flex;
+        border-radius: 15px;
+        // align-items: center;
+        // text-align: center;
+        flex-direction: column;
+        @media (max-width: 1000px) {
+          margin: 0 !important;
+        }
+        h3 {
+          font-size: 40px;
+          font-weight: 600;
+        }
+        .deliver-div {
+            // background-color: #060a0c;
+            color: #ffffff;
+            .content-div {
+              flex-direction: column;
+              h1 {
+                font-size: 36px;
+                width: 700px;
+              }
+              h6 {
+                width: 700px;
+                font-size: 16px;
+                line-height: 30px;
+              }
+              .discover-btn {
+                height: 45px;
+                width: 200px;
+                background-color: #f37d1a;
+                color: #ffffff;
+                border: none;
+                border-radius: 5px;
+              }
+            }
+          }
+          .second-div{
+            img{
+margin-top: -18vh;
+                height: 400px;
+                width: 100%;
+            }
+          }
+        }
+    
+    
+      

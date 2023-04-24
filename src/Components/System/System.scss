@@ -1,0 +1,54 @@
+.system-main-div{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    .first-card {
+        background-color: #66380f;
+        border: none;
+        border-radius: 15px;
+      }
+      .second-card {
+        background-color: #f37d1a;
+        border: none;
+        border-radius: 15px;
+      }
+    .first {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .icon-div {
+            height: 60px;
+            width: 60px;
+            background-color: #e37c26;
+            border-radius: 50%;
+            .i-1 {
+              height: 30px;
+              width: 30px;
+            }
+          }
+          .content{
+            .description{
+                font-size: 17px;
+                line-height: 25px;
+                color: #A5BCD6;
+            }
+          }
+        h3 {
+          color: #f37d1a;
+          font-size: 17px;
+          font-weight: 600;
+        }
+        h1 {
+          width: 45%;
+          line-height: 55px;
+          font-size: 39px;
+          @media (max-width: 600px) {
+            width: 90%;
+            font-size: 30px;
+          }
+        }
+      }
+}

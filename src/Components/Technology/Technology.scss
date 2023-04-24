@@ -1,0 +1,98 @@
+.technology-main-div {
+    padding-top: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    h3 {
+      color: #f37d1a;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    h1 {
+      width: 60%;
+      font-size: 39px;
+      margin-bottom: 50px;
+      @media (max-width:600px) {
+        width: 90%;
+        font-size: 30px;
+      }
+    }
+    .box {
+      background-color: #66380f;
+      
+      border-radius: 15px;
+      padding: 2em 2em 0em 2em;
+
+      display: flex;
+      text-align: start;
+      flex-direction: column;
+      &:hover{
+        border: 2px solid #f37d1a;
+      }
+      @media (max-width: 750px) {
+        margin-top: 10px;
+      }
+    //   .img-span {
+    //     background-color: transparent;
+    //     img {
+    //       display: flex;
+    //       position: relative;
+    //       border-radius: 65px;
+    //       mix-blend-mode: luminosity;
+    //       top: -40px;
+    //     }
+    //     span {
+    //       display: flex;
+    //       position: relative;
+    //       border-radius: 10px;
+    //       right: -100px;
+    //       width: 20px;
+    //       height: 20px;
+    //       top: -180px;
+    //       background: #a3d9d9;
+    //       mix-blend-mode: screen;
+    //     }
+    //   }
+      h2 {
+        background-color: transparent;
+        letter-spacing: 0.1em;
+      color: #f37d1a;
+
+        font-size: 28px;
+        // text-transform: uppercase;
+        // @media (max-width: 850px) {
+        //   font-size: 26px;
+        // }
+      }
+      h4 {
+        background-color: transparent;
+        border-radius: 15px;
+        margin-top: 8px;
+        line-height: 25px;
+        font-weight: 400;
+        font-size: 19px;
+        // padding: 0 50px 20px 50px;
+        @media (max-width: 850px) {
+          font-size: 12px;
+          padding: 0 20px;
+        }
+        @media (max-width: 450px) {
+          font-size: 23px;
+        }
+      }
+    }
+    img{
+      @media (max-width:750px) {
+        width: 531px;
+      }
+      @media (max-width:500px) {
+        width: 414px;
+      }
+      @media (max-width:450px) {
+        width: 470px;
+      }
+    }
+  }

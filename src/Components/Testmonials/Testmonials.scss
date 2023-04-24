@@ -1,0 +1,35 @@
+.testmonials-main-div {
+  padding-top: 30px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  h3 {
+    color: #f37d1a;
+    font-size: 16px;
+    font-weight: 600;
+  }
+//   .first-div {
+//     flex-direction: column;
+    h1 {
+      font-size: 39px;
+      margin-bottom: 15px;
+      @media (max-width: 600px) {
+        font-size: 30px;
+      }
+    }
+    .title-desc {
+        width: 50%;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 50px;
+        @media (max-width:600px) {
+          width: 90%;
+          font-size: 30px;
+        }
+      }
+//   }
+}

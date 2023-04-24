@@ -1,0 +1,63 @@
+.footer-main-div {
+  //   background-color: #341901;
+  color: #ffffff;
+  .footer-div {
+    background-color: #66380f;
+    color: #ffffff;
+    .second-div {
+      .footer {
+        .logo {
+          img {
+            height: 70px;
+            width: 250px;
+          }
+        }
+        .description {
+          font-size: 15px;
+          line-height: 25px;
+        }
+      }
+      .contact-div {
+        h6 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 28px;
+          color: #ffffff;
+        }
+      }
+      .icon-div {
+        .icon {
+          height: 25px;
+          width: 25px;
+          background-color: #ff943a;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 10px;
+        }
+      }
+      .information {
+        .service-div {
+          .name {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #ffffff;
+            &:hover {
+              color: #ff943a;
+            }
+          }
+        }
+      }
+    }
+  }
+  .secon-div {
+    background-color: #542f0e;
+
+    .link-name {
+      &:hover {
+        color: #ff943a;
+      }
+    }
+  }
+}

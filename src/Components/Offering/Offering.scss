@@ -1,0 +1,68 @@
+.offering-main-div {
+  color: #ffffff;
+
+  .first-card {
+    background-color: #766bf8;
+    border: none;
+    border-radius: 15px;
+    &:hover{
+        border: 1px solid #f37d1a;
+      }    
+  }
+  .second-card {
+    background-color: #66380f;
+    border: none;
+    border-radius: 15px;
+    &:hover{
+        border: 1px solid #f37d1a;
+      }
+  }
+  .third-card {
+    background-color: #2b64f8;
+    border-radius: 15px;
+    &:hover{
+        border: 1px solid #f37d1a;
+      }
+  }
+  .forth-card {
+    background-image: url(../../Assets/Images/person.jpg);
+    background-size: 100% 100%;
+    background-color: #2b64f8;
+    border-radius: 15px;
+    // .asa {
+    //   background-image: linear-gradient(135deg, #1fbf75);
+    // }
+    &:hover{
+        border: 1px solid #f37d1a;
+      }
+  }
+  .fifth-card {
+    background-image: url(../../Assets/Images/desktop_img.png);
+    background-size: 100% 100%;
+    background-color: #2b64f8;
+    border-radius: 15px;
+    // .asa {
+    //   background-image: linear-gradient(135deg, #1fbf75);
+    // }
+    &:hover{
+        border: 1px solid #f37d1a;
+      }
+  }
+  .first-div {
+    .i-1 {
+      height: 28px;
+      width: 28px;
+    }
+    .content {
+      .title {
+        font-size: 22px;
+      }
+      .description {
+        font-size: 16px;
+      }
+      img {
+        height: 340px;
+      }
+    }
+  }
+}

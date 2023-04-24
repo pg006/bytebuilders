@@ -1,0 +1,113 @@
+.navbar-main-div{
+    background-image: url(../../Assets/Images/bg_img.jpg);
+    // height: 300px;
+    color: #ffffff;
+    .nav-bar-div{
+      img{
+        height: 50px;
+        width: 200px;
+    }
+    // .navbar-item{
+    //     // color: #ffffff;
+    // }
+    // .navbar-brand {
+    //     // color: #ffffff !important;
+    //     // background-color: transparent !important;
+    //   }
+      
+  .nav-link {
+    color: #ffffff !important;
+    background: transparent !important;
+  }
+  .get-start-btn{
+    background-color:  #ff943a;
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+    }
+    .second-div{
+      .content-div {
+        margin-top: 60px;
+        color: #ffffff;
+        // padding: 0 70px 0 0;
+        // @media (max-width: 1200px) {
+        //   padding: 0;
+        // }
+        h6{
+          font-size: 14px;
+          color: #f37d1a;
+        }
+        h1 {
+          font-size: 48px;
+          padding-right: 50px;
+          // @media (max-width: 1000px) {
+          //   font-size: 55px;
+          // }
+          // @media (max-width: 780px) {
+          //   font-size: 39px;
+          // }
+          // @media (max-width: 580px) {
+          //   font-size: 40px;
+          //   padding-right: 0;
+          // }
+        }
+        h5 {
+          // width: 65%;
+          font-weight: 400;
+          line-height: 25px;
+          font-size: 16px;
+          // @media (max-width: 780px) {
+          //   font-size: 15px;
+          //   width: 80%;
+          // }
+          // @media (max-width: 580px) {
+          //   width: 100%;
+          //   font-size: 20px;
+          // }
+        }
+        .row {
+          // @media (max-width: 580px) {
+          //   margin: 0 !important;
+          // }
+          .buy-button {
+            height: 55px;
+            width: 185px;
+            background-color: #f37d1a;
+            // border-radius: 40px;
+            color: #ffffff;
+            font-size: 20px;
+            // @media (max-width: 990px) {
+            //   width: 130px;
+            // }
+          }
+    
+          .sell-button {
+            color: #ffffff;
+            // padding: 13px 55px;4
+            height: 55px;
+            width: 190px;
+            border: 2px solid #ffffff;
+            // border-radius: 40px;
+            margin-left: 13px;
+            // @media (max-width: 990px) {
+            //   width: 130px;
+            //   padding: 0;
+              
+            // }
+            // @media (max-width: 580px) {
+            //   margin: 5px 0 0 1px;
+            // }
+            .icon{
+              margin-left: 15px;
+              height: 20px;
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+}
