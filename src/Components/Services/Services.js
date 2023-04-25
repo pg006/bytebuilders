@@ -9,7 +9,7 @@ import { BiCodeBlock } from "react-icons/bi";
 const Services = () => {
   return (
     <React.Fragment>
-      <div className="services-main-div">
+      <div className="services-main-div px-2">
         <div className="service-div container">
           <Row>
             <Col lg={6} className="first-col">

@@ -1,53 +1,89 @@
-.company-need-main-div{
-    
-        margin: 0 30px;
-        background: #66380f;
+.company-need-main-div {
+
+  margin: 0 30px;
+  background: #66380f;
+  color: #ffffff;
+  border: 1px solid #a56126;
+  // display: flex;
+  border-radius: 15px;
+  // align-items: center;
+  // text-align: center;
+  flex-direction: column;
+
+  @media (max-width: 500px) {
+    margin: 0 !important;
+  }
+
+  .need-row {
+    padding: 0 20px !important;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .deliver-div {
+    color: #ffffff;
+
+    .content-div {
+      flex-direction: column;
+
+      h1 {
+        font-size: 36px;
+        width: 700px;
+
+        @media (max-width:900px) {
+          width: unset;
+          font-size: 34px;
+          font-weight: 700;
+          // line-height: 38px;
+        }
+
+        @media (max-width:500px) {
+          width: unset;
+          font-size: 26px;
+          line-height: 38px;
+        }
+      }
+
+      h6 {
+        width: 700px;
+        font-size: 16px;
+        line-height: 30px;
+
+        @media (max-width:1000px) {
+          width: unset;
+          margin-top: 15px;
+        }
+
+      }
+
+      .discover-btn {
+        height: 45px;
+        width: 200px;
+        background-color: #f37d1a;
         color: #ffffff;
-        border: 1px solid #a56126;
-        // display: flex;
-        border-radius: 15px;
-        // align-items: center;
-        // text-align: center;
-        flex-direction: column;
-        @media (max-width: 1000px) {
-          margin: 0 !important;
-        }
-        h3 {
-          font-size: 40px;
-          font-weight: 600;
-        }
-        .deliver-div {
-            // background-color: #060a0c;
-            color: #ffffff;
-            .content-div {
-              flex-direction: column;
-              h1 {
-                font-size: 36px;
-                width: 700px;
-              }
-              h6 {
-                width: 700px;
-                font-size: 16px;
-                line-height: 30px;
-              }
-              .discover-btn {
-                height: 45px;
-                width: 200px;
-                background-color: #f37d1a;
-                color: #ffffff;
-                border: none;
-                border-radius: 5px;
-              }
-            }
-          }
-          .second-div{
-            img{
-margin-top: -18vh;
-                height: 400px;
-                width: 100%;
-            }
-          }
-        }
-    
-    
-      
+        border: none;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .second-div {
+    img {
+      margin-top: -18vh;
+      height: 400px;
+
+      @media (max-width:1000px) {
+        margin-top: 0;
+      }
+
+      @media (max-width:500px) {
+        margin-top: 25px;
+        width: 100%;
+        height: 350px;
+      }
+    }
+  }
+}

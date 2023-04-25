@@ -1,7 +1,15 @@
 .offering-main-div {
   color: #ffffff;
-
-  .first-card {
+.th-col{
+  @media (max-width:900px) {
+    display: flex !important;
+    width: 100% !important;
+  }
+  @media (max-width:500px) {
+    display: unset !important;
+  }
+}
+  .first-card { 
     background-color: #766bf8;
     border: none;
     border-radius: 15px;
@@ -23,15 +31,22 @@
     &:hover{
         border: 1px solid #f37d1a;
       }
+      @media (max-width:500px) {
+        margin-top: 1.5rem;
+      }
   }
   .forth-card {
     background-image: url(../../Assets/Images/person.jpg);
     background-size: 100% 100%;
     background-color: #2b64f8;
     border-radius: 15px;
-    // .asa {
-    //   background-image: linear-gradient(135deg, #1fbf75);
-    // }
+    @media (max-width:1000px) {
+      margin-top: 1.5rem;
+      margin-right: 1rem !important;
+    }
+    @media (max-width:500px) {
+      margin-right: 0 !important;
+    }
     &:hover{
         border: 1px solid #f37d1a;
       }
@@ -41,9 +56,12 @@
     background-size: 100% 100%;
     background-color: #2b64f8;
     border-radius: 15px;
-    // .asa {
-    //   background-image: linear-gradient(135deg, #1fbf75);
-    // }
+    @media (max-width:1000px) {
+      margin-left: 1rem !important;
+    }
+    @media (max-width:500px) {
+      margin-left: 0 !important;
+    }
     &:hover{
         border: 1px solid #f37d1a;
       }
@@ -61,7 +79,12 @@
         font-size: 16px;
       }
       img {
-        height: 340px;
+        height: 350px;
+        width: 100%;
+        @media (max-width:700px) {
+          height: 270px;
+          margin: 0 !important;
+        }
       }
     }
   }

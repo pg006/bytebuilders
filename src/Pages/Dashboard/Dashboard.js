@@ -20,8 +20,8 @@ const Dashboard = () => {
       <Navbar />
       <JoinCustomer/>
       <Technology/>
-      {/* <DelivarITSolution/> */}
-      {/* <Services/>
+      <DelivarITSolution/>
+      <Services/>
       <Offering/>
       <Works/>
       <Testmonials/>
@@ -29,7 +29,7 @@ const Dashboard = () => {
       <System/>
       <Portfolio/>
       <CompanyNeed/>
-      <Footer /> */}
+      <Footer />
       </div>
     
     </React.Fragment>

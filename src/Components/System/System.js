@@ -3,6 +3,7 @@ import "./System.scss";
 import { Card, Col, Row } from "react-bootstrap";
 import { BsFillFileLock2Fill, BsPeopleFill } from "react-icons/bs";
 import { BiHeadphone } from "react-icons/bi";
+import { FaMedal } from "react-icons/fa";
 
 const System = () => {
   return (
@@ -15,8 +16,8 @@ const System = () => {
           </div>
         </div>
         <div className="second-div container">
-          <Row className="mt-5">
-            <Col lg={3} md={6} sm={12} className="pt-5">
+          <Row className="card-row mt-5">
+            <Col lg={3} md={6} sm={12} className="top-col pt-5">
               <Card className="first-card">
                 <div className="first p-4">
                   <div className="d-flex justify-content-center">
@@ -34,7 +35,7 @@ const System = () => {
                 </div>
               </Card>
             </Col>
-            <Col lg={3} md={6} sm={12}>
+            <Col lg={3} md={6} sm={12} className="bottom-col">
               <Card className="second-card">
                 <div className="first p-4">
                   <div className="d-flex justify-content-center">
@@ -52,12 +53,12 @@ const System = () => {
                 </div>
               </Card>
             </Col>
-            <Col lg={3} md={6} sm={12} className="pt-5">
+            <Col lg={3} md={6} sm={12} className="top-col pt-5">
               <Card className="first-card">
                 <div className="first p-4">
                   <div className="d-flex justify-content-center">
                     <div className="icon-div d-flex justify-content-center align-items-center">
-                      <BiHeadphone className="i-1" />
+                      <FaMedal className="i-1" />
                     </div>
                   </div>
                   <div className="content mt-5">
@@ -70,7 +71,7 @@ const System = () => {
                 </div>
               </Card>
             </Col>
-            <Col lg={3} md={6} sm={12}>
+            <Col lg={3} md={6} sm={12} className="bottom-col">
               <Card className="first-card">
                 <div className="first p-4">
                   <div className="d-flex justify-content-center">

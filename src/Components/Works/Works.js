@@ -21,8 +21,8 @@ const Works = () => {
           </div>
         </div>
         <div className="second-div container">
-          <Row className="mt-5">
-            <Col lg={3} md={6} sm={12} className="pt-5">
+          <Row className="mt-5 mx-2">
+            <Col lg={3} md={6} sm={12} className="bottom-col pt-5">
               <Card className="first-card">
                 <div className="first p-4">
                   <TbSquareRoundedNumber1Filled className="i-1" />
@@ -36,7 +36,7 @@ const Works = () => {
                 </div>
               </Card>
             </Col>
-            <Col lg={3} md={6} sm={12}>
+            <Col lg={3} md={6} sm={12} className="top-col">
               <Card className="second-card">
                 <div className="first p-4">
                   <TbSquareRoundedNumber2Filled className="i-1" />
@@ -50,7 +50,7 @@ const Works = () => {
                 </div>
               </Card>
             </Col>
-            <Col lg={3} md={6} sm={12} className="pt-5">
+            <Col lg={3} md={6} sm={12} className="bottom-col pt-5">
               <Card className="first-card">
                 <div className="first p-4">
                   <TbSquareRoundedNumber3Filled className="i-1" />
@@ -64,7 +64,7 @@ const Works = () => {
                 </div>
               </Card>
             </Col>
-            <Col lg={3} md={6} sm={12}>
+            <Col lg={3} md={6} sm={12} className="top-col">
               <Card className="second-card">
                 <div className="first p-4">
                   <TbSquareRoundedNumber4Filled className="i-1" />

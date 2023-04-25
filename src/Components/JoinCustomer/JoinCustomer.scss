@@ -1,5 +1,5 @@
 .join-customer-main-div {
-  margin: 0 30px;
+  margin: 0 50px;
   background: #66380f;
   color: #ffffff;
   border: 1px solid #a56126;
@@ -10,18 +10,26 @@
   flex-direction: column;
   margin-top: -70px;
   @media (max-width: 1000px) {
-    margin: 0 !important;
+    margin: 0 10px!important;
   }
 
   h3 {
     font-size: 40px;
     font-weight: 600;
+    @media (max-width:500px) {
+    font-size: 30px;
+    }
   }
 
   .image-div {
     .image {
       height: 40px;
-      width: 12%;
+      width: 14%;
+      @media (max-width:500px) {
+        height: 34px;
+        width: 23%;
+        margin: 15px 16px !important;
+      }
     }
   }
 

@@ -14,7 +14,7 @@ const Offering = () => {
       <div className="offering-main-div mt-5">
         <div className="container">
           <Row>
-            <Col lg={4}>
+            <Col lg={4} md={6} sm={12} className="fi-col">
               <Card className="first-card">
                 <div className="first-div p-4">
                   <FaPencilRuler className="i-1" />
@@ -41,7 +41,7 @@ const Offering = () => {
 
               </Card>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} md={6} sm={12} className="se-col">
               <Card className="third-card">
                 <div className="first-div px-4 pt-4">
                 <div className="content">
@@ -57,9 +57,8 @@ const Offering = () => {
                 </div>
               </Card>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} md={6} sm={12} className="th-col">
               <Card className="forth-card">
-              <div className="asa">
                 <div className="first-div p-4">
                   <RiShieldKeyholeFill className="i-1" />
                   <div className="content mt-5">
@@ -72,7 +71,6 @@ const Offering = () => {
                 </div>
                 </div>
                 
-                </div>
               </Card>
               <Card className="fifth-card mt-4">
                 <div className="first-div p-4">

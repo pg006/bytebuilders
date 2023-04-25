@@ -9,7 +9,7 @@ const DelivarITSolution = () => {
           <div className="deliver-div">
             <div className="content-div d-flex justify-content-center align-items-center">
               <h1>Delivering IT solutions that enable you to work smarter.</h1>
-              <h6>
+              <h6 className="mx-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                 tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </h6>

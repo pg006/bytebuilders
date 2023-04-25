@@ -9,7 +9,7 @@ import { AiFillYoutube } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="footer-main-div">
-      <div className="footer-div py-5  mt-5">
+      <div className="footer-div py-4">
         <div className="container second-div">
           <Row className="py-2">
             <Col lg={4} md={12} sm={12} className="pt-4 px-4">
@@ -18,7 +18,9 @@ const Footer = () => {
                   <img src={logolight} alt="bytebuilders" />
                 </div>
                 <h5 className="my-3 description">
-                319, Platinum Point Opp CNG Pump, Sudama Chowk, Mota Varachha, Surat - 394101
+                  Mollis duis conubia phasellus iaculis hendrerit taciti. Ligula
+                  morbi velit facilisis imperdiet si suscipit tristique netus
+                  cursus.
                 </h5>
               </div>
               <div className="icon-div my-3 d-flex">
@@ -38,7 +40,7 @@ const Footer = () => {
             </Col>
             <Col lg={8} md={12} sm={12}>
               <Row className="information">
-                <Col lg={4} md={4} sm={12} className="pt-4">
+                <Col lg={4} md={4} sm={6} className="pt-4">
                   <h5>Services</h5>
                   <div className="service-div mt-4">
                     <Nav.Link eventKey="" className="name">
@@ -61,7 +63,7 @@ const Footer = () => {
                     </Nav.Link>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12} className="pt-4">
+                <Col lg={4} md={4} sm={6} className="pt-4">
                   <h5>Support</h5>
                   <div className="service-div mt-4">
                     <Nav.Link eventKey="" className="name">
@@ -79,7 +81,7 @@ const Footer = () => {
                   </div>
                 </Col>
 
-                <Col lg={4} md={4} sm={12} className="pt-4">
+                <Col lg={4} md={4} sm={6} className="pt-4">
                   <h5>Company</h5>
                   <div className="service-div mt-4">
                     <Nav.Link eventKey="" className="name">
@@ -125,3 +127,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

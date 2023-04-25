@@ -5,7 +5,7 @@ const Performance = () => {
   return (
     <React.Fragment>
       <div className="py-5">
-        <div className="performance-main-div my-5">
+        <div className="performance-main-div mt-5">
           <div className="deliver-div">
             <div className="content-div d-flex justify-content-center align-items-center">
               <h1>

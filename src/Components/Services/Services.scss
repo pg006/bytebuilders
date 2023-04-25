@@ -1,53 +1,78 @@
 .services-main-div {
   .service-div {
     color: #ffffff;
-    .first-col{
-    .our-service {
-      color: #f37d1a;
-      font-size: 14px;
-    }
-    .let-us {
-      font-size: 39px;
-      margin-right: 10px;
-    }
-    .lorem {
-      font-size: 17px;
-      margin-right: 10px;
-      color: #a9a9a9;
-      line-height: 27px;
-    }
-    .icon-div {
-      width: 100%;
-      .icon {
-        height: 60px;
-        width: 60px;
-        background-color: #e37c26;
-        border-radius: 50%;
-        .icon-1 {
-          height: 35px;
-          width: 35px;
+
+    .first-col {
+      .our-service {
+        color: #f37d1a;
+        font-size: 17px;
+      }
+
+      .let-us {
+        font-size: 39px;
+        margin-right: 10px;
+
+        @media (max-width:500px) {
+          font-size: 24px;
         }
       }
-      .content-div {
-        width: 80%;
-        margin-left: 30px;
-        .content-title {
-          font-size: 20px;
+
+      .lorem {
+        font-size: 17px;
+        margin-right: 10px;
+        color: #a9a9a9;
+        line-height: 27px;
+
+        @media (max-width:500px) {
+          font-size: 14px;
+          ;
+          line-height: 22px;
+
         }
-        .content-desc {
-          color: #a9a9a9;
-          font-size: 16px;
-          line-height: 24px;
+      }
+
+      .icon-div {
+        width: 100%;
+
+        .icon {
+          height: 60px;
+          width: 60px;
+          background-color: #e37c26;
+          border-radius: 50%;
+
+          .icon-1 {
+            height: 35px;
+            width: 35px;
+          }
+        }
+
+        .content-div {
+          width: 80%;
+          margin-left: 30px;
+
+          @media (max-width:500px) {
+            margin-left: 12px;
+          }
+
+          .content-title {
+            font-size: 20px;
+          }
+
+          .content-desc {
+            color: #a9a9a9;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+
+    .second-col {
+      .image-div {
+        img {
+          width: 100%;
         }
       }
     }
   }
-  .second-col{
-    .image-div{
-        img{
-            width: 100%;
-        }
-    }
-  }
-}
 }

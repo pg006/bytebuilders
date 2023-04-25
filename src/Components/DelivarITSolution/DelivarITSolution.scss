@@ -1,38 +1,65 @@
-.deliver-solution-main-div{
+.deliver-solution-main-div {
     background-image: url(../../Assets/Images/tech_img.jpg);
-    height: 100vh !important;
+    height: 100vh;
     // background-color: #060A0C;
     background-repeat: no-repeat;
     // width: 100% 100%;
     background-size: cover;
-    .deliver-div{
+
+    @media (max-width:1000px) {
+        height: 50vh;
+    }
+
+
+    .deliver-div {
         background-color: #060A0C;
         opacity: 0.7;
-    height: 100vh !important;
-color: #ffffff;
-.content-div{
-    height: 100vh;
-flex-direction: column;
-    h1{
-        text-align: center;
-        font-size: 39px;
-    width: 650px;
-
-    }
-    h6{
-        text-align: center;
-    width: 650px;
-
-
-    }
-    .discover-btn{
-        height: 50px;
-        width: 200px;
-        background-color: #f37d1a;
+        height: 100vh;
         color: #ffffff;
-        border: none;
-        border-radius: 5px;
+
+        @media (max-width:1000px) {
+            height: 50vh;
+        }
+
+
+        .content-div {
+            height: 100vh;
+            flex-direction: column;
+
+            @media (max-width:1000px) {
+                height: 50vh;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 39px;
+                width: 650px;
+                @media (max-width:500px) {
+                    width: unset;
+                    font-size: 28px;
+                }
+            }
+
+            h6 {
+                text-align: center;
+                width: 650px;
+                line-height: 25px;
+
+                @media (max-width:500px) {
+                    width: unset;
+                }
+    
+
+            }
+
+            .discover-btn {
+                height: 50px;
+                width: 200px;
+                background-color: #f37d1a;
+                color: #ffffff;
+                border: none;
+                border-radius: 5px;
+            }
+        }
     }
-}
-}
 }

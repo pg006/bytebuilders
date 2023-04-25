@@ -1,113 +1,195 @@
-.navbar-main-div{
-    background-image: url(../../Assets/Images/bg_img.jpg);
-    // height: 300px;
-    color: #ffffff;
-    .nav-bar-div{
-      img{
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+.nav-links:hover {
+  border-radius: 4px;
+}
+.fa-bars {
+  color: #fff;
+}
+.nav-links-mobile {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+@media (max-width: 960px) {
+  .navbar {
+    position: relative;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .nav-menu.active {
+    background: #ffffff;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  .nav-links:hover {
+    background-color: #7577fa;
+    border-radius: 0;
+  }
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+  }
+}
+.navbar-expand .navbar-nav .dropdown-menu {
+  position: unset !important;
+}
+.dropdown-item {
+  display: flex;
+  justify-content: center;
+}
+.navbar-main-div {
+  background-image: url(../../Assets/Images/sppiner.jpg);
+  background-size: cover;
+  color: #ffffff !important;
+  background-position-x: center;
+  .nav-bar-div {
+
+    .navbar-logo-div {
+      img {
         height: 50px;
         width: 200px;
-    }
-    // .navbar-item{
-    //     // color: #ffffff;
-    // }
-    // .navbar-brand {
-    //     // color: #ffffff !important;
-    //     // background-color: transparent !important;
-    //   }
-      
-  .nav-link {
-    color: #ffffff !important;
-    background: transparent !important;
-  }
-  .get-start-btn{
-    background-color:  #ff943a;
-    height: 50px;
-    width: 150px;
-    border: none;
-    color: #ffffff;
-    border-radius: 5px;
-    margin-left: 10px;
-  }
-    }
-    .second-div{
-      .content-div {
-        margin-top: 60px;
+        @media (max-width:960px) {
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .nav-link {
         color: #ffffff;
-        // padding: 0 70px 0 0;
-        // @media (max-width: 1200px) {
-        //   padding: 0;
-        // }
-        h6{
-          font-size: 14px;
-          color: #f37d1a;
+        background: transparent !important;
+        @media (max-width:960px) {
+          color: black !important;
         }
-        h1 {
-          font-size: 48px;
-          padding-right: 50px;
-          // @media (max-width: 1000px) {
-          //   font-size: 55px;
-          // }
-          // @media (max-width: 780px) {
-          //   font-size: 39px;
-          // }
-          // @media (max-width: 580px) {
-          //   font-size: 40px;
-          //   padding-right: 0;
-          // }
+      }
+      .get-start-btn {
+        background-color: #ff943a;
+        height: 50px;
+        width: 150px;
+        border: none;
+        color: #ffffff;
+        border-radius: 5px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .second-div {
+    .content-div {
+      margin-top: 60px;
+      color: #ffffff;
+      h6 {
+        font-size: 14px;
+        color: #f37d1a;
+        @media (max-width:500px) {
+          text-align: center;
+          
         }
-        h5 {
-          // width: 65%;
-          font-weight: 400;
-          line-height: 25px;
-          font-size: 16px;
-          // @media (max-width: 780px) {
-          //   font-size: 15px;
-          //   width: 80%;
-          // }
-          // @media (max-width: 580px) {
-          //   width: 100%;
-          //   font-size: 20px;
-          // }
+      }
+      h1 {
+        font-size: 48px;
+        padding-right: 50px;
+        @media (max-width:500px) {
+          font-size: 30px;
+          text-align: center;
+          padding-right: 0;
+          
         }
-        .row {
-          // @media (max-width: 580px) {
-          //   margin: 0 !important;
-          // }
-          .buy-button {
-            height: 55px;
-            width: 185px;
-            background-color: #f37d1a;
-            // border-radius: 40px;
-            color: #ffffff;
-            font-size: 20px;
-            // @media (max-width: 990px) {
-            //   width: 130px;
-            // }
+      }
+      h5 {
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 16px;
+        @media (max-width:500px) {
+          text-align: center;
+          
+        }
+      }
+      .row {
+        .buttons-div{
+          @media (max-width:500px) {
+            flex-direction: column;
           }
-    
-          .sell-button {
-            color: #ffffff;
-            // padding: 13px 55px;4
-            height: 55px;
-            width: 190px;
-            border: 2px solid #ffffff;
-            // border-radius: 40px;
-            margin-left: 13px;
-            // @media (max-width: 990px) {
-            //   width: 130px;
-            //   padding: 0;
-              
-            // }
-            // @media (max-width: 580px) {
-            //   margin: 5px 0 0 1px;
-            // }
-            .icon{
-              margin-left: 15px;
-              height: 20px;
-              width: 20px;
-            }
+        .buy-button {
+          height: 55px;
+          width: 185px;
+          background-color: #f37d1a;
+          color: #ffffff;
+          font-size: 19px;
+          @media (max-width:500px) {
+       width: 100%;
+          }
+        }
+        .sell-button {
+          color: #ffffff;
+          height: 55px;
+          width: 190px;
+          border: 2px solid #ffffff;
+          margin-left: 13px;
+          @media (max-width:500px) {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 15px;
+               }
+          .icon {
+            margin-left: 15px;
+            height: 20px;
+            width: 20px;
           }
         }
       }
+      }
     }
+  }
 }
