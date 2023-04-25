@@ -86,13 +86,16 @@
     }
     img{
       @media (max-width:750px) {
-        width: 531px;
+        width: 520px;
+      }
+      @media (max-width:600px) {
+        width: 274px;
       }
       @media (max-width:500px) {
-        width: 414px;
+        width: 217px;
       }
       @media (max-width:450px) {
-        width: 470px;
+        width: 297px;
       }
     }
   }

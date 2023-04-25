@@ -17,19 +17,19 @@ const Dashboard = () => {
   return (
     <React.Fragment>
       <div className="dashboard-main-div">
-      {/* <Navbar /> */}
-      {/* <JoinCustomer/> */}
+      <Navbar />
+      <JoinCustomer/>
       <Technology/>
-      <DelivarITSolution/>
-      <Services/>
+      {/* <DelivarITSolution/> */}
+      {/* <Services/>
       <Offering/>
       <Works/>
       <Testmonials/>
-      {/* <Performance/> */}
-      {/* <System/> */}
-      {/* <Portfolio/> */}
-      {/* <CompanyNeed/> */}
-      {/* <Footer /> */}
+      <Performance/>
+      <System/>
+      <Portfolio/>
+      <CompanyNeed/>
+      <Footer /> */}
       </div>
     
     </React.Fragment>

@@ -4,6 +4,7 @@ import "./Services.scss";
 import { HiLightBulb } from "react-icons/hi";
 import { TbWorld } from "react-icons/tb";
 import desktop from "../../Assets/Images/desktop_img.png";
+import { BiCodeBlock } from "react-icons/bi";
 
 const Services = () => {
   return (
@@ -48,7 +49,7 @@ const Services = () => {
               </div>
               <div className="icon-div py-2 d-flex">
                 <div className="icon d-flex justify-content-center align-items-center">
-                  <TbWorld className="icon-1" />
+                  <BiCodeBlock className="icon-1" />
                 </div>
                 <div className="content-div">
                   <h3 className="content-title">IOT & Programing</h3>

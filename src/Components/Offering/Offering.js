@@ -6,6 +6,7 @@ import { RiShieldKeyholeFill } from "react-icons/ri";
 import { HiCodeBracketSquare } from "react-icons/hi2";
 import mobileapp from "../../Assets/Images/mobile_app.png";
 import "./Offering.scss";
+import { BiCodeBlock } from "react-icons/bi";
 
 const Offering = () => {
   return (
@@ -75,7 +76,7 @@ const Offering = () => {
               </Card>
               <Card className="fifth-card mt-4">
                 <div className="first-div p-4">
-                  <HiCodeBracketSquare className="i-1" />
+                  <BiCodeBlock className="i-1" />
                   <div className="content mt-5">
 
                   <h4  className="title">Website Development</h4>
