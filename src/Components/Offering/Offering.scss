@@ -76,10 +76,11 @@
         font-size: 22px;
       }
       .description {
-        font-size: 16px;
+        font-size: 13px;
+        line-height: 20px;
       }
       img {
-        height: 350px;
+        height: 380px;
         width: 100%;
         @media (max-width:700px) {
           height: 270px;

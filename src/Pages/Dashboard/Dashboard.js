@@ -17,21 +17,20 @@ const Dashboard = () => {
   return (
     <React.Fragment>
       <div className="dashboard-main-div">
-      <Navbar />
-      <JoinCustomer/>
-      <Technology/>
-      <DelivarITSolution/>
-      <Services/>
-      <Offering/>
-      <Works/>
-      <Testmonials/>
-      <Performance/>
-      <System/>
-      <Portfolio/>
-      <CompanyNeed/>
-      <Footer />
+        <Navbar isDelete="true" />
+        <JoinCustomer />
+        <Technology />
+        <DelivarITSolution />
+        <Services />
+        <Offering />
+        <Works />
+        <Testmonials />
+        <Performance />
+        <System />
+        <Portfolio />
+        <CompanyNeed />
+        <Footer />
       </div>
-    
     </React.Fragment>
   );
 };

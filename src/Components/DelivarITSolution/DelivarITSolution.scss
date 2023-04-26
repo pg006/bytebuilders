@@ -13,7 +13,7 @@
 
     .deliver-div {
         background-color: #060A0C;
-        opacity: 0.8;
+        opacity: 0.9;
         height: 100vh;
         color: #ffffff;
 
@@ -36,7 +36,7 @@
                 width: 650px;
                 @media (max-width:500px) {
                     width: unset;
-                    font-size: 28px;
+                    font-size: 25px;
                 }
             }
 
@@ -44,9 +44,11 @@
                 text-align: center;
                 width: 650px;
                 line-height: 25px;
-
+font-weight: 400;
                 @media (max-width:500px) {
                     width: unset;
+                    margin: 0 0.5rem !important;
+                    
                 }
     
 

@@ -8,7 +8,9 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  margin-top: -70px;
+  // margin-top: -70px;
+  // z-index: 99999;
+  // position: relative;
   @media (max-width: 1000px) {
     margin: 0 10px!important;
   }

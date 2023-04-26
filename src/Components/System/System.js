@@ -4,6 +4,9 @@ import { Card, Col, Row } from "react-bootstrap";
 import { BsFillFileLock2Fill, BsPeopleFill } from "react-icons/bs";
 import { BiHeadphone } from "react-icons/bi";
 import { FaMedal } from "react-icons/fa";
+import { GiSkills } from "react-icons/gi";
+import { HiCurrencyDollar } from "react-icons/hi";
+
 
 const System = () => {
   return (
@@ -18,18 +21,17 @@ const System = () => {
         <div className="second-div container">
           <Row className="card-row mt-5">
             <Col lg={3} md={6} sm={12} className="top-col pt-5">
-              <Card className="first-card">
+            <Card className="first-card">
                 <div className="first p-4">
                   <div className="d-flex justify-content-center">
                     <div className="icon-div d-flex justify-content-center align-items-center">
-                      <BsFillFileLock2Fill className="i-1" />
+                      <BsPeopleFill className="i-1" />
                     </div>
                   </div>
                   <div className="content mt-5">
-                    <h4 className="title">Smart & secure system</h4>
+                    <h4 className="title">Customer Service</h4>
                     <h5 className="description pt-2">
-                      Dui gravida integer commodo cursus ante vehicula lobortis
-                      quam dis at tristique.
+                    We believe in building long-term relationships with our clients. Our team provides excellent customer service and support to ensure that our clients are satisfied with our services.
                     </h5>
                   </div>
                 </div>
@@ -40,32 +42,30 @@ const System = () => {
                 <div className="first p-4">
                   <div className="d-flex justify-content-center">
                     <div className="icon-div d-flex justify-content-center align-items-center">
-                      <BsPeopleFill className="i-1" />
+                      <FaMedal className="i-1" />
                     </div>
                   </div>
                   <div className="content mt-5">
-                    <h4 className="title">Professional team</h4>
+                    <h4 className="title">Quality</h4>
                     <h5 className="description pt-2">
-                      Dui gravida integer commodo cursus ante vehicula lobortis
-                      quam dis at tristique.
+                    We are committed to delivering high-quality solutions that exceed our clients' expectations. We use the latest technologies and best practices to ensure that our solutions are of the highest quality.
                     </h5>
                   </div>
                 </div>
               </Card>
             </Col>
             <Col lg={3} md={6} sm={12} className="top-col pt-5">
-              <Card className="first-card">
+            <Card className="first-card">
                 <div className="first p-4">
                   <div className="d-flex justify-content-center">
                     <div className="icon-div d-flex justify-content-center align-items-center">
-                      <FaMedal className="i-1" />
+                      <GiSkills className="i-1" />
                     </div>
                   </div>
                   <div className="content mt-5">
-                    <h4 className="title">Certified Expert</h4>
+                    <h4 className="title">Expertise</h4>
                     <h5 className="description pt-2">
-                      Dui gravida integer commodo cursus ante vehicula lobortis
-                      quam dis at tristique.
+                    Our team of experienced developers, designers, and marketers has the expertise to customized solutions that meet the unique needs of each client.
                     </h5>
                   </div>
                 </div>
@@ -76,14 +76,13 @@ const System = () => {
                 <div className="first p-4">
                   <div className="d-flex justify-content-center">
                     <div className="icon-div d-flex justify-content-center align-items-center">
-                      <BiHeadphone className="i-1" />
+                      <HiCurrencyDollar className="i-1" />
                     </div>
                   </div>
                   <div className="content mt-5">
-                    <h4 className="title">24/7 Premium Support</h4>
+                    <h4 className="title">Affordable</h4>
                     <h5 className="description pt-2">
-                      Dui gravida integer commodo cursus ante vehicula lobortis
-                      quam dis at tristique.
+                    We offer competitive pricing for our services without compromising on quality. We believe in providing value for money to our clients.
                     </h5>
                   </div>
                 </div>

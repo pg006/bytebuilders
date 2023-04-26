@@ -18,9 +18,7 @@ const Portfolio = () => {
             </Col>
             <Col lg={6} md={6} sm={12}>
               <h5 className="desc mx-3">
-                Sociosqu aenean facilisis fermentum aliquam velit sapien. Dictum
-                conubia eget curae massa nunc. Mollis nascetur platea aenean
-                curae mi ultrices primis torquent euismod.
+              They may have developed web applications using recent technologies such as Angular, React, Vue.js, and Node.js. They may have worked on a variety of web applications, such as e-commerce websites, online marketplaces, and online booking systems.
               </h5>
               <button className="get-start-btn mt-3">Learn More</button>
             </Col>

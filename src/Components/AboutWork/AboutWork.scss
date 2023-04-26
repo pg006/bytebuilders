@@ -1,0 +1,97 @@
+.about-work-main-div {
+  color: #ffffff;
+  .first-div {
+    padding-bottom: 50px;
+    .card {
+      background-color: #66380f;
+      @media (max-width:600px) {
+        padding-bottom: 15PX !important;
+      }
+    }
+    .card-div {
+      @media (max-width:600px) {
+        margin: 0 !important;
+      }
+      h1 {
+        font-size: 40px;
+        @media (max-width:600px) {
+        font-size: 25px;
+        }
+      }
+      h5 {
+        font-size: 17px;
+        font-weight: 400;
+        width: 80%;
+        letter-spacing: 2px;
+        @media (max-width:600px) {
+        font-size: 16px;
+margin-top: 15px;
+         width: unset;
+
+        }
+      }
+      .processbar-div {
+        h2 {
+          font-size: 18px;
+          @media (max-width:600px) {
+            font-size: 15px;
+          
+    
+            }
+        }
+      }
+    }
+  }
+  .card-row {
+    .first-card{
+        background-color: #33A9FF;
+    }
+    .second-card{
+        background-color: #766BF8;
+    }
+    .third-card{
+        background-color: #1FBF75;
+    }
+    .forth-card{
+        background-color: #435D78;
+    }
+    .first {
+      justify-content: center;
+      align-items: center;
+
+        .i-1 {
+         font-size: 35px;
+        }
+  
+
+      .content {
+        .title {
+          font-size: 20px;
+        }
+
+        .description {
+          font-size: 14px;
+          line-height: 20px;
+          color: #a5bcd6;
+        }
+      }
+
+      h3 {
+        color: #f37d1a;
+        font-size: 17px;
+        font-weight: 600;
+      }
+
+      h1 {
+        width: 45%;
+        line-height: 55px;
+        font-size: 39px;
+
+        @media (max-width: 600px) {
+          width: 90%;
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

@@ -19,10 +19,9 @@ const Offering = () => {
                 <div className="first-div p-4">
                   <FaPencilRuler className="i-1" />
                   <div className="content mt-5">
-                    <h4 className="title">Graphic Design</h4>
+                    <h4 className="title">Software Development</h4>
                     <h5 className="description pt-2">
-                      Uma auctor sed dictum libero vestibulum orci a imperdiet
-                      quisque nullam nam.
+                    We offer custom software development services to businesses of all sizes. Our team has experience in developing a range of software applications including enterprise software, mobile apps, web applications, and more.
                     </h5>
                   </div>
                 </div>
@@ -31,10 +30,9 @@ const Offering = () => {
                 <div className="first-div p-4">
                   <MdBarChart className="i-1"/>
                   <div className="content mt-5">
-                  <h4 className="title">Online Marketing</h4>
+                  <h4 className="title">Web Development</h4>
                   <h5 className="description pt-2">
-                    Uma auctor sed dictum libero vestibulum orci a imperdiet
-                    quisque nullam nam.
+                  Our team of experienced web developers creates responsive and user-friendly websites that are optimized for search engines. We use the latest web development technologies to deliver high-quality websites that meet the needs of our clients.
                   </h5>
                 </div>
                 </div>
@@ -46,10 +44,9 @@ const Offering = () => {
                 <div className="first-div px-4 pt-4">
                 <div className="content">
 
-                  <h4 className="title">Mobile App Developments</h4>
+                  <h4 className="title">Mobile Application Development</h4>
                   <h5 className="description pt-2">
-                    Uma auctor sed dictum libero vestibulum orci a imperdiet
-                    quisque nullam nam.
+                  We specialize in developing mobile applications for iOS and Android platforms. Our team of experts uses the latest mobile app development technologies to create feature-rich and user-friendly mobile apps.
                   </h5>
                   <img src={mobileapp} alt="mobileapp" />
                 </div>
@@ -63,10 +60,9 @@ const Offering = () => {
                   <RiShieldKeyholeFill className="i-1" />
                   <div className="content mt-5">
 
-                  <h4 className="title">Cyber Security</h4>
+                  <h4 className="title">Digital Marketing</h4>
                   <h5 className="description pt-2">
-                    Uma auctor sed dictum libero vestibulum orci a imperdiet
-                    quisque nullam nam.
+                  Our digital marketing services include search engine optimization, social media marketing, pay-per-click advertising, and more. We create customized digital marketing strategies that help businesses increase their online visibility and reach their target audience.
                   </h5>
                 </div>
                 </div>
@@ -77,10 +73,9 @@ const Offering = () => {
                   <BiCodeBlock className="i-1" />
                   <div className="content mt-5">
 
-                  <h4  className="title">Website Development</h4>
+                  <h4  className="title">Cloud Computing</h4>
                   <h5 className="description pt-2">
-                    Uma auctor sed dictum libero vestibulum orci a imperdiet
-                    quisque nullam nam.
+                  We offer cloud computing services that enable businesses to store, manage, and access their data and applications securely and efficiently. Our cloud solutions include cloud migration, cloud hosting, and cloud storage services.
                   </h5>
                 </div>
 

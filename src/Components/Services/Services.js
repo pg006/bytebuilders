@@ -28,9 +28,7 @@ const Services = () => {
                 <div className="content-div">
                   <h3 className="content-title">Creative Solutions</h3>
                   <h5 className="content-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                    leo.
+                  Bytebuilders Infotech provide creative and innovative solutions for businesses to optimize their IT infrastructure.
                   </h5>
                 </div>
               </div>
@@ -41,9 +39,7 @@ const Services = () => {
                 <div className="content-div">
                   <h3 className="content-title">Digital Marketing</h3>
                   <h5 className="content-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                    leo.
+                  Bytebuilder Infotech may offer a full range of digital marketing services that are tailored to their clients' specific requirements
                   </h5>
                 </div>
               </div>
@@ -54,9 +50,7 @@ const Services = () => {
                 <div className="content-div">
                   <h3 className="content-title">IOT & Programing</h3>
                   <h5 className="content-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                    leo.
+                  Bytebuilders Infotech might offer IoT answers for help organizations coordinate and interface different gadgets and sensors for better information investigation and independent direction.
                   </h5>
                 </div>
               </div>
