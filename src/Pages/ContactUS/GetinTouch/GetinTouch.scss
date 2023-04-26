@@ -1,0 +1,127 @@
+.get-touch-main {
+  .left-part {
+    h3 {
+      color: #f37d1a;
+      font-size: 35px;
+      font-weight: 600;
+    }
+    h4 {
+      color: #f37d1a;
+      font-weight: 600;
+    }
+    h5 {
+      color: #fff;
+      font-weight: 400;
+      font-size: 16px;
+    }
+    h6 {
+      color: #fff;
+    }
+    hr{
+        color: #fc8f33;
+        height: 2px;
+        margin-top: 35px;
+    }
+    .icon-div {
+      .icon {
+        height: 35px;
+        width: 35px;
+        background-color: #ff943a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        border-radius: 5px;
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
+  .right-part {
+    .top-div {
+      .first-card {
+        .card {
+          border-radius: 15px;
+          background-color: #fc8f33;
+          .head-div {
+            .i-1 {
+              color: #fff;
+              font-size: 35px;
+            }
+            h5 {
+              color: #fff;
+              font-weight: 600;
+            }
+            h6 {
+              color: #fff;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+      .second-card {
+        .card {
+          border-radius: 15px;
+          background-color: #66380f;
+          height: 220px;
+          .email-div {
+            .i-1 {
+              color: #fff;
+              font-size: 35px;
+            }
+            h5 {
+              color: #fff;
+              font-weight: 600;
+            }
+            h6 {
+              color: #fff;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+    .bottom-div {
+      .first-card {
+        .card {
+          border-radius: 15px;
+          background-color: #66380f;
+          .call-div {
+            .i-1 {
+              color: #fff;
+              font-size: 35px;
+            }
+            h5 {
+              color: #fff;
+              font-weight: 600;
+            }
+            h6 {
+              color: #fff;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+      .second-card {
+        .card {
+          border-radius: 15px;
+          background-color: #66380f;
+          .consult-div {
+            .i-1 {
+              color: #fff;
+              font-size: 35px;
+            }
+            h5 {
+              color: #fff;
+              font-weight: 600;
+            }
+            h6 {
+              color: #fff;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+}

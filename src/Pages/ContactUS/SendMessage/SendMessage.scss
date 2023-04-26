@@ -1,0 +1,28 @@
+.message-main-div {
+  .card {
+    background-color: #66380f;
+    h1 {
+      color: #fff;
+    }
+    h5 {
+      color: #fff;
+      text-align: center;
+    }
+    .form-label {
+      color: white;
+    }
+    .form-control {
+      background-color: #e0e0e0;
+    }
+    .btn-div {
+      .send-btn {
+        border-radius: 6px;
+        background-color: #f37d1a;
+        border: none;
+        height: 50px;
+        color: #fff;
+        font-weight: 500;
+      }
+    }
+  }
+}

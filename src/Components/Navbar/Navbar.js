@@ -42,14 +42,14 @@ const NavBar = () => {
                     <NavDropdown.Item href="">PRICING PLAN</NavDropdown.Item>
                     <NavDropdown.Item href="">PORTFOLIO</NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#contact">CONTACT US</Nav.Link>
-                  <NavDropdown title="PAGES" id="basic-nav-dropdown">
+                  <Nav.Link href="/contactus">CONTACT US</Nav.Link>
+                  {/* <NavDropdown title="PAGES" id="basic-nav-dropdown">
                     <NavDropdown.Item href="">TEAM</NavDropdown.Item>
                     <NavDropdown.Item href="">FAQ</NavDropdown.Item>
                     <NavDropdown.Item href="">BLOG</NavDropdown.Item>
                     <NavDropdown.Item href="">SINGLE POST</NavDropdown.Item>
                     <NavDropdown.Item href="">ERROR 404</NavDropdown.Item>
-                  </NavDropdown>
+                  </NavDropdown> */}
                 </div>
                 <button className="get-start-btn">Get Started</button>
 

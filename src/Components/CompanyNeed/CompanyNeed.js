@@ -32,4 +32,3 @@ const CompanyNeed = () => {
 }
 
 export default CompanyNeed
-
