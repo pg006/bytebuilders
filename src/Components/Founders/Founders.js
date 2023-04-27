@@ -15,8 +15,7 @@ const Founders = () => {
         <div className="content-div d-flex justify-content-center align-items-center">
           <h1>Awesome people behind us.</h1>
           <h6>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          The leadership team at Bytebuilders Infotech is made up of seasoned professionals who have decades of experience in the technology industry. 
           </h6>
         </div>
         <div className="founder-div container">

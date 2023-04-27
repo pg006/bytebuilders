@@ -1,8 +1,8 @@
 import React from "react";
-import {Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import "./Technology.scss";
-import mobile from '../../Assets/Images/mobile_app.png'
-import desktop from '../../Assets/Images/desktop_img.png'
+import mobile from "../../Assets/Images/mobile_app.png";
+import desktop from "../../Assets/Images/desktop_img.png";
 const Technology = () => {
   return (
     <React.Fragment>
@@ -19,10 +19,10 @@ const Technology = () => {
               <div className="box px-4 pt-4">
                 <h2>Mobile Application Development</h2>
                 <h4>
-                  Inceptos ultricies cubilia nascetur nisi ornare consectetur
-                  pulvinar curae ligula mattis platea.{" "}
+                  Bytebuilder Infotech believes that a good user experience is
+                  key to the success of any mobile app.
                 </h4>
-                <img src={mobile} alt="mobile"/>
+                <img src={mobile} alt="mobile" />
               </div>
             </div>
           </Col>
@@ -31,10 +31,10 @@ const Technology = () => {
               <div className="box px-4 pt-4">
                 <h2>Desktop Application Development & Website</h2>
                 <h4>
-                Inceptos ultricies cubilia nascetur nisi ornare consectetur pulvinar curae ligula mattis platea.{" "}
+                  Bytebuilders Infotech provides custom desktop application
+                  development services for businesses of all sizes.
                 </h4>
-                <img src={desktop} alt="desktop"/>
-
+                <img src={desktop} alt="desktop"  className="img-2"/>
               </div>
             </div>
           </Col>
@@ -43,10 +43,11 @@ const Technology = () => {
               <div className="box px-4 pt-4">
                 <h2>Digital Marketing & Branding</h2>
                 <h4>
-                Inceptos ultricies cubilia nascetur nisi ornare consectetur pulvinar curae ligula mattis platea.{" "}
+                  Bytebuilders Infotech offers digital marketing services to
+                  help businesses increase their online visibility, drive
+                  traffic.
                 </h4>
-                <img src={desktop} alt="link"/>
-
+                <img src={desktop} alt="link" className="img-2"/>
               </div>
             </div>
           </Col>

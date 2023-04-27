@@ -15,8 +15,8 @@ const Works = () => {
           <h3>How it works</h3>
           <div className="d-flex justify-content-center">
             <h1>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              In the discovery phase, Bytebuilders Infotech works closely with
+              clients to understand their specific needs and requirements.
             </h1>
           </div>
         </div>
@@ -29,8 +29,9 @@ const Works = () => {
                   <div className="content mt-5">
                     <h4 className="title">Discover the product</h4>
                     <h5 className="description pt-2">
-                      Leo himenaeos penatibus magnis platea nulla senectus
-                      adipiscing ad imperdiet quam facilisis
+                      Bytebuilders Infotech provides custom software development
+                      services that are tailored to the specific needs of
+                      clients.
                     </h5>
                   </div>
                 </div>
@@ -43,8 +44,9 @@ const Works = () => {
                   <div className="content mt-5">
                     <h4 className="title">Free Consultations</h4>
                     <h5 className="description pt-2">
-                      Leo himenaeos penatibus magnis platea nulla senectus
-                      adipiscing ad imperdiet quam facilisis
+                      we conducts rigorous testing and quality assurance to
+                      ensure that the software solution is free from bugs,
+                      errors, and security vulnerabilities
                     </h5>
                   </div>
                 </div>
@@ -57,8 +59,8 @@ const Works = () => {
                   <div className="content mt-5">
                     <h4 className="title">Wireframe & Production</h4>
                     <h5 className="description pt-2">
-                      Leo himenaeos penatibus magnis platea nulla senectus
-                      adipiscing ad imperdiet quam facilisis
+                      We creates a blueprint of the software solution. our work
+                      closely with the client to develop a clear understanding.
                     </h5>
                   </div>
                 </div>
@@ -71,8 +73,9 @@ const Works = () => {
                   <div className="content mt-5">
                     <h4 className="title">Prototype Application</h4>
                     <h5 className="description pt-2">
-                      Leo himenaeos penatibus magnis platea nulla senectus
-                      adipiscing ad imperdiet quam facilisis
+                      During the conceptualization phase, Bytebuilders Infotech
+                      works closely with the client to develop a clear
+                      understanding of their needs, goals, and objectives.
                     </h5>
                   </div>
                 </div>

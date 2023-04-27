@@ -18,9 +18,7 @@ const Footer = () => {
                   <img src={logolight} alt="bytebuilders" />
                 </div>
                 <h5 className="my-3 description">
-                  Mollis duis conubia phasellus iaculis hendrerit taciti. Ligula
-                  morbi velit facilisis imperdiet si suscipit tristique netus
-                  cursus.
+                319, Platinum Point Opp CNG Pump, Sudama Chowk, Mota Varachha, Surat - 394101
                 </h5>
               </div>
               <div className="icon-div my-3 d-flex">

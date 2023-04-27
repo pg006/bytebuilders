@@ -18,9 +18,8 @@ const AboutWork = () => {
                 <div className="card-div m-4 p-3">
                   <h1>Express everything and feel everything.</h1>
                   <h5>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                    leo.
+                    At Bytebuilders Infotech, they believe in expressing
+                    everything – ideas, thoughts, and opinions.
                   </h5>
                   <div className="processbar-div">
                     <h2 className="mt-3">DESIGN GRAPHICS & 3D DESIGN</h2>
@@ -30,75 +29,80 @@ const AboutWork = () => {
                     <h2 className="mt-3">ANIMATIONS</h2>
                     <ProgressBar now={72} label={`${72}%`} />
                     <h2 className="mt-3">PROGRAMING</h2>
-                    <ProgressBar now={91} label={`${91}%`} 
-                    />
+                    <ProgressBar now={91} label={`${91}%`} />
                   </div>
                 </div>
               </Card>
             </div>
           </Col>
           <Col lg={6} md={12} sm={12}>
-          <Row className="card-row">
-            <Col lg={6} md={6} sm={12} className="top-col">
-              <Card className="first-card mt-3">
-                <div className="first p-4">
-                  <div className="">
+            <Row className="card-row">
+              <Col lg={6} md={6} sm={12} className="top-col">
+                <Card className="first-card mt-3">
+                  <div className="first p-4">
+                    <div className="">
                       <HiLightBulb className="i-1" />
+                    </div>
+                    <div className="content mt-5">
+                      <h4 className="title">Creative Team</h4>
+                      <h5 className="description pt-2">
+                        Bytebuilders Infotech provide creative and innovative
+                        solutions for businesses to optimize their IT
+                        infrastructure.
+                      </h5>
+                    </div>
                   </div>
-                  <div className="content mt-5">
-                    <h4 className="title">Creative Team</h4>
-                    <h5 className="description pt-2">
-                    Bytebuilders Infotech provide creative and innovative solutions for businesses to optimize their IT infrastructure.
-                    </h5>
-                  </div>
-                </div>
-              </Card>
-              <Card className="second-card mt-3">
-                <div className="first p-4">
-                  <div className="">
+                </Card>
+                <Card className="second-card mt-3">
+                  <div className="first p-4">
+                    <div className="">
                       <TbWorld className="i-1" />
+                    </div>
+                    <div className="content mt-5">
+                      <h4 className="title">Digital Marketing</h4>
+                      <h5 className="description pt-2">
+                        Bytebuilder Infotech may offer a full range of digital
+                        marketing services that are tailored to their clients'
+                        specific requirements
+                      </h5>
+                    </div>
                   </div>
-                  <div className="content mt-5">
-                    <h4 className="title">Digital Marketing</h4>
-                    <h5 className="description pt-2">
-                    Bytebuilder Infotech may offer a full range of digital marketing services that are tailored to their clients' specific requirements
-                    </h5>
-                  </div>
-                </div>
-              </Card>
-            </Col>
+                </Card>
+              </Col>
 
-            <Col lg={6} md={6} sm={12} className="top-col">
-              <Card className="third-card mt-3">
-                <div className="first p-4">
-                  <div className="">
+              <Col lg={6} md={6} sm={12} className="top-col">
+                <Card className="third-card mt-3">
+                  <div className="first p-4">
+                    <div className="">
                       <BiCodeBlock className="i-1" />
                     </div>
-                  <div className="content mt-5">
-                    <h4 className="title">IOT & Programing</h4>
-                    <h5 className="description pt-2">
-                    Bytebuilders Infotech might offer IoT answers for help organizations coordinate and sensors for better information investigation.
-                    </h5>
+                    <div className="content mt-5">
+                      <h4 className="title">IOT & Programing</h4>
+                      <h5 className="description pt-2">
+                        Bytebuilders Infotech might offer IoT answers for help
+                        organizations coordinate and sensors for better
+                        information investigation.
+                      </h5>
+                    </div>
                   </div>
-                </div>
-              </Card>
+                </Card>
 
-              <Card className="forth-card mt-3">
-                <div className="first p-4">
-                  <div className="">
+                <Card className="forth-card mt-3">
+                  <div className="first p-4">
+                    <div className="">
                       <TbChessQueenFilled className="i-1" />
+                    </div>
+                    <div className="content mt-5">
+                      <h4 className="title">Affordable</h4>
+                      <h5 className="description pt-2">
+                        Bytebuilders Infotech may offer scalable solutions that
+                        can grow with the needs of its clients.
+                      </h5>
+                    </div>
                   </div>
-                  <div className="content mt-5">
-                    <h4 className="title">Affordable</h4>
-                    <h5 className="description pt-2">
-                    Bytebuilders Infotech may offer scalable solutions that can grow with the needs of its clients.
-                    </h5>
-                  </div>
-                </div>
-              </Card>
-            </Col>
- 
-          </Row>
+                </Card>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </div>
