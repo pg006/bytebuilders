@@ -14,7 +14,7 @@ const CompanyNeed = () => {
                   Get the Business IT Service That Your Company Needs
                 </h1>
                 <h6>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Bytebuilders Infotech may help startups build scalable and secure technology platforms that can support their growth and expansion.
                 </h6>
                 <button className="discover-btn mt-4">Get Started</button>
               </div>

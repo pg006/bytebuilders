@@ -60,7 +60,6 @@
     display: table;
   }
 
-
   .navbar-logo {
     position: absolute;
     top: 0;
@@ -115,17 +114,22 @@
     background-color: black;
     opacity: 0.9;
     height: 80vh;
+    @media (max-width: 1050px) {
+      height: 100vh;
+    }
+    @media (max-width: 900px) {
+      height: unset;
+    }
     .nav-bar-div {
-
       .navbar-logo-div {
-        @media (max-width:960px) {
+        @media (max-width: 960px) {
           margin-left: 1rem !important;
         }
         img {
           height: 50px;
           width: 200px;
 
-          @media (max-width:960px) {
+          @media (max-width: 960px) {
             display: flex;
             justify-content: center;
           }
@@ -135,7 +139,7 @@
           color: #ffffff;
           background: transparent !important;
 
-          @media (max-width:960px) {
+          @media (max-width: 960px) {
             color: black !important;
           }
         }
@@ -148,7 +152,7 @@
           color: #ffffff;
           border-radius: 5px;
           margin-left: 10px;
-          @media (max-width:960px) {
+          @media (max-width: 960px) {
             display: none;
           }
         }
@@ -164,9 +168,8 @@
           font-size: 14px;
           color: #f37d1a;
 
-          @media (max-width:500px) {
+          @media (max-width: 500px) {
             text-align: center;
-
           }
         }
 
@@ -174,11 +177,10 @@
           font-size: 48px;
           padding-right: 50px;
 
-          @media (max-width:500px) {
+          @media (max-width: 500px) {
             font-size: 30px;
             text-align: center;
             padding-right: 0;
-
           }
         }
 
@@ -187,15 +189,14 @@
           line-height: 25px;
           font-size: 16px;
 
-          @media (max-width:500px) {
+          @media (max-width: 500px) {
             text-align: center;
-
           }
         }
 
         .row {
           .buttons-div {
-            @media (max-width:500px) {
+            @media (max-width: 500px) {
               flex-direction: column;
             }
 
@@ -206,7 +207,7 @@
               color: #ffffff;
               font-size: 19px;
 
-              @media (max-width:500px) {
+              @media (max-width: 500px) {
                 width: 100%;
               }
             }
@@ -218,7 +219,7 @@
               border: 2px solid #ffffff;
               margin-left: 13px;
 
-              @media (max-width:500px) {
+              @media (max-width: 500px) {
                 width: 100%;
                 margin-left: 0;
                 margin-top: 15px;
@@ -233,11 +234,11 @@
           }
         }
       }
-      .about-div-div{
-        .about-title{
-font-size: 48px;
+      .about-div-div {
+        .about-title {
+          font-size: 48px;
         }
-        .about-desc{
+        .about-desc {
           font-size: 16px;
           line-height: 25px;
           font-weight: 400;

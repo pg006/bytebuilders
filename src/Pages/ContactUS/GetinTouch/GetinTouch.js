@@ -21,14 +21,12 @@ const GetinTouch = () => {
             Don't hesitate to contact us for more information
           </h3>
           <h5 className="pt-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          You can use any of the above methods to get in touch with Bytebuilders Infotech, whether you have a question about their services, want to request a quote, or just want to learn more about the company.
           </h5>
           <hr />
           <h4 className="pt-2">Follow our social network</h4>
           <h5 className="pt-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          You can follow Bytebuilders Infotech on any of these social networks to stay up-to-date with their latest news, updates, and services.
           </h5>
 
           <div className="icon-div my-3 d-flex pt-4">

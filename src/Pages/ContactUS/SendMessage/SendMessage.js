@@ -8,8 +8,7 @@ const SendMessage = () => {
       <Card className="p-5">
         <h1 className="d-flex justify-content-center pt-4">Send Us A Message</h1>
         <h5 className="d-flex justify-content-center pt-3">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        If you want to know more about us then leave a message here.
         </h5>
         <Row className="pt-4">
           <Col lg={6} md={6} sm={12}>

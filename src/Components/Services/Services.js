@@ -18,8 +18,7 @@ const Services = () => {
                 Let us do the work, so you can focus on what matters.
               </h2>
               <h5 className="lorem my-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              At ByteBuilders Infotech, we are committed to providing innovative and cutting-edge solutions to our clients. We believe in using technology to solve real-world problems and help businesses achieve their goals.
               </h5>
               <div className="icon-div py-2 d-flex">
                 <div className="icon d-flex justify-content-center align-items-center">
