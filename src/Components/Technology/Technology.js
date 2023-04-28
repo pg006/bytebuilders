@@ -1,8 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "./Technology.scss";
-import mobile from "../../Assets/Images/mobile_app.png";
-import desktop from "../../Assets/Images/desktop_img.png";
+import mobile from "../../Assets/Images/mo-app.jpeg";
+import desktop from "../../Assets/Images/application.jpeg";
+import m_1 from '../../Assets/Images/marketing.jpeg'
 const Technology = () => {
   return (
     <React.Fragment>
@@ -22,7 +23,7 @@ const Technology = () => {
                   Bytebuilder Infotech believes that a good user experience is
                   key to the success of any mobile app.
                 </h4>
-                <img src={mobile} alt="mobile" />
+                <img src={mobile} alt="mobile" className="my-2 pt-4" />
               </div>
             </div>
           </Col>
@@ -34,7 +35,7 @@ const Technology = () => {
                   Bytebuilders Infotech provides custom desktop application
                   development services for businesses of all sizes.
                 </h4>
-                <img src={desktop} alt="desktop"  className="img-2"/>
+                <img src={desktop} alt="desktop" className="my-2"/>
               </div>
             </div>
           </Col>
@@ -47,7 +48,7 @@ const Technology = () => {
                   help businesses increase their online visibility, drive
                   traffic.
                 </h4>
-                <img src={desktop} alt="link" className="img-2"/>
+                <img src={m_1} alt="link" className="my-2"/>
               </div>
             </div>
           </Col>

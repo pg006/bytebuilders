@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Nav, Row } from "react-bootstrap";
-import { BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import "./Footer.scss";
 import logolight from "../../Assets/Images/Logo White.png";
@@ -18,7 +18,8 @@ const Footer = () => {
                   <img src={logolight} alt="bytebuilders" />
                 </div>
                 <h5 className="my-3 description">
-                319, Platinum Point Opp CNG Pump, Sudama Chowk, Mota Varachha, Surat - 394101
+                  319, Platinum Point Opp CNG Pump, Sudama Chowk, Mota Varachha,
+                  Surat - 394101
                 </h5>
               </div>
               <div className="icon-div my-3 d-flex">
@@ -125,4 +126,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

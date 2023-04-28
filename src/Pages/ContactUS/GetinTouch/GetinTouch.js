@@ -1,12 +1,7 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import "./GetinTouch.scss";
-import {
-  MdLocationOn,
-  MdMarkEmailRead,
-  MdMessage,
-  MdWifiCalling3,
-} from "react-icons/md";
+import { MdLocationOn, MdMarkEmailRead } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { AiFillYoutube } from "react-icons/ai";
@@ -21,12 +16,16 @@ const GetinTouch = () => {
             Don't hesitate to contact us for more information
           </h3>
           <h5 className="pt-3">
-          You can use any of the above methods to get in touch with Bytebuilders Infotech, whether you have a question about their services, want to request a quote, or just want to learn more about the company.
+            You can use any of the above methods to get in touch with
+            Bytebuilders Infotech, whether you have a question about their
+            services, want to request a quote, or just want to learn more about
+            the company.
           </h5>
           <hr />
           <h4 className="pt-2">Follow our social network</h4>
           <h5 className="pt-3">
-          You can follow Bytebuilders Infotech on any of these social networks to stay up-to-date with their latest news, updates, and services.
+            You can follow Bytebuilders Infotech on any of these social networks
+            to stay up-to-date with their latest news, updates, and services.
           </h5>
 
           <div className="icon-div my-3 d-flex pt-4">
@@ -70,28 +69,6 @@ const GetinTouch = () => {
               </Card>
             </Col>
           </Row>
-          {/* <Row className="bottom-div">
-            <Col lg={6} md={12} sm={12} className="first-card p-2">
-              <Card>
-                <div className="call-div p-3">
-                  <MdWifiCalling3 className="i-1 mb-5" />
-                  <h5>Call us</h5>
-                  <h6>Phone : +917567673046</h6>
-                  <h6>Fax : +917567673046</h6>
-                </div>
-              </Card>
-            </Col>
-            <Col lg={6} md={12} sm={12} className="second-card p-2">
-              <Card>
-                <div className="consult-div p-3">
-                  <MdMessage className="i-1 mb-5" />
-                  <h5>Free Consultations</h5>
-                  <h6>Phone : +917567673046</h6>
-                  <h6>Fax : +917567673046</h6>
-                </div>
-              </Card>
-            </Col>
-          </Row> */}
         </Col>
       </Row>
     </div>

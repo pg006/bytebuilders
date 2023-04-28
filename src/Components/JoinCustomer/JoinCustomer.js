@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import "./JoinCustomer.scss";
 import image_1 from "../../Assets/Images/image_1.png";
 import image_2 from "../../Assets/Images/image_2.png";

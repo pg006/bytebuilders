@@ -56,7 +56,7 @@ const Services = () => {
             </Col>
             <Col lg={6} className="second-col">
               <div className="image-div">
-                <img src={desktop} className="my-5" />
+                <img src={desktop} className="my-5" alt="desktop" />
               </div>
             </Col>
           </Row>

@@ -15,14 +15,16 @@ const Founders = () => {
         <div className="content-div d-flex justify-content-center align-items-center">
           <h1>Awesome people behind us.</h1>
           <h6>
-          The leadership team at Bytebuilders Infotech is made up of seasoned professionals who have decades of experience in the technology industry. 
+            The leadership team at Bytebuilders Infotech is made up of seasoned
+            professionals who have decades of experience in the technology
+            industry.
           </h6>
         </div>
         <div className="founder-div container">
           <Row>
             <Col lg={3} md={6} sm={12}>
               <Card>
-                <img variant="top" src={per_1} />
+                <img variant="top" src={per_1} alt="per_1" />
                 <Card.Body>
                   <div className="card-div">
                     <div className="icon-div my-2 d-flex justify-content-center">
@@ -46,7 +48,7 @@ const Founders = () => {
             </Col>
             <Col lg={3} md={6} sm={12}>
               <Card>
-                <img variant="top" src={per_2} />
+                <img variant="top" src={per_2} alt="per_2" />
                 <Card.Body>
                   <div className="card-div">
                     <div className="icon-div my-2 d-flex justify-content-center">
@@ -72,7 +74,7 @@ const Founders = () => {
             </Col>
             <Col lg={3} md={6} sm={12}>
               <Card>
-                <img variant="top" src={per_3} />
+                <img variant="top" src={per_3} alt="per_3" />
                 <Card.Body>
                   <div className="card-div">
                     <div className="icon-div my-2 d-flex justify-content-center">
@@ -98,7 +100,7 @@ const Founders = () => {
             </Col>{" "}
             <Col lg={3} md={6} sm={12}>
               <Card>
-                <img variant="top" src={per_4} />
+                <img variant="top" src={per_4} alt="per_4" />
                 <Card.Body>
                   <div className="card-div">
                     <div className="icon-div my-2 d-flex justify-content-center">

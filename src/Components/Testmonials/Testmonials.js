@@ -49,8 +49,6 @@ const Testmonials = () => {
       title: "Hattie Vance",
       review: "Store  Owner",
     },
-    // { img: person, title: "Daniel Walker", review: "Founder makko" },
-    // { img: person, title: "Brooke Hawkins", review: "Business Manager" },
   ];
 
   const settings = {

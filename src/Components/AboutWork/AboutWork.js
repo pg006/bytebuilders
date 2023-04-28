@@ -1,10 +1,8 @@
 import React from "react";
 import "./AboutWork.scss";
 import { Card, Col, ProgressBar, Row } from "react-bootstrap";
-import { HiCurrencyDollar, HiLightBulb } from "react-icons/hi";
-import { BsAsterisk, BsPeopleFill } from "react-icons/bs";
-import { FaMedal } from "react-icons/fa";
-import { GiBatteryPack, GiSkills } from "react-icons/gi";
+import { HiLightBulb } from "react-icons/hi";
+
 import { TbChessQueenFilled, TbWorld } from "react-icons/tb";
 import { BiCodeBlock } from "react-icons/bi";
 const AboutWork = () => {
