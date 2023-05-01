@@ -12,8 +12,7 @@
     font-size: 16px;
     font-weight: 600;
   }
-  //   .first-div {
-  //     flex-direction: column;
+
   h1 {
     font-size: 39px;
     margin-bottom: 15px;
@@ -30,8 +29,7 @@
     @media (max-width: 600px) {
       width: 90%;
       font-size: 17px;
-    margin-bottom: 0;
-
+      margin-bottom: 0;
     }
   }
 
@@ -69,7 +67,6 @@
         font-size: 12px;
         padding: 0 20px;
       }
-
     }
     .review-title {
       font-size: 22px;
@@ -88,8 +85,6 @@
 .slick-slider {
   display: flex;
   align-items: center;
-  // max-width: 1200px;
-  // margin: 0 auto;
 }
 
 .slick-slide {
@@ -142,7 +137,6 @@
 .slick-next:focus {
   color: transparent;
   outline: none;
-  // background: tomato;
 }
 .slick-dots li button:before {
   color: rgb(255, 255, 255) !important;

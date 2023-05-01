@@ -1,67 +1,60 @@
 .deliver-solution-main-div {
-    background-image: url(../../Assets/Images/big.jpg);
+  background-image: url(../../Assets/Images/big.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (max-width: 1000px) {
+    height: 50vh;
+  }
+
+  .deliver-div {
+    background-color: #060a0c;
+    opacity: 0.9;
     height: 100vh;
-    // background-color: #060A0C;
-    background-repeat: no-repeat;
-    // width: 100% 100%;
-    background-size: cover;
+    color: #ffffff;
 
-    @media (max-width:1000px) {
+    @media (max-width: 1000px) {
+      height: 50vh;
+    }
+
+    .content-div {
+      height: 100vh;
+      flex-direction: column;
+
+      @media (max-width: 1000px) {
         height: 50vh;
-    }
+      }
 
+      h1 {
+        text-align: center;
+        font-size: 39px;
+        width: 650px;
+        @media (max-width: 500px) {
+          width: unset;
+          font-size: 25px;
+        }
+      }
 
-    .deliver-div {
-        background-color: #060A0C;
-        opacity: 0.9;
-        height: 100vh;
+      h6 {
+        text-align: center;
+        width: 650px;
+        line-height: 25px;
+        font-weight: 400;
+        @media (max-width: 500px) {
+          width: unset;
+          margin: 0 0.5rem !important;
+        }
+      }
+
+      .discover-btn {
+        height: 50px;
+        width: 200px;
+        background-color: #f37d1a;
         color: #ffffff;
-
-        @media (max-width:1000px) {
-            height: 50vh;
-        }
-
-
-        .content-div {
-            height: 100vh;
-            flex-direction: column;
-
-            @media (max-width:1000px) {
-                height: 50vh;
-            }
-
-            h1 {
-                text-align: center;
-                font-size: 39px;
-                width: 650px;
-                @media (max-width:500px) {
-                    width: unset;
-                    font-size: 25px;
-                }
-            }
-
-            h6 {
-                text-align: center;
-                width: 650px;
-                line-height: 25px;
-font-weight: 400;
-                @media (max-width:500px) {
-                    width: unset;
-                    margin: 0 0.5rem !important;
-                    
-                }
-    
-
-            }
-
-            .discover-btn {
-                height: 50px;
-                width: 200px;
-                background-color: #f37d1a;
-                color: #ffffff;
-                border: none;
-                border-radius: 5px;
-            }
-        }
+        border: none;
+        border-radius: 5px;
+      }
     }
+  }
 }

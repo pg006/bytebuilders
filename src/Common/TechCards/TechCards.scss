@@ -1,65 +1,58 @@
-.slider-main-div{
-    .slider-first-div {
-        padding-top: 30px;
-        color: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-        // h3 {
-        //   color: #a3d9d9;
-        //   font-weight: 600;
-        // }
-        // h1 {
-        //   width: 50%;
-        //   margin-bottom: 10%;
-        // }
-        .box {
-          background-color: #66380f;
-          border-radius: 15px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          @media (max-width: 750px) {
-            margin-top: 85px;
-          }
-            img {
-                height: 60px;
-                width: 60px;
-                border-radius: 65px;
-              }
-          
-          h2 {
-            background-color: transparent;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            @media (max-width: 850px) {
-              font-size: 26px;
-            }
-          }
-          h4 {
-            background-color: transparent;
-            border-radius: 15px;
-            font-weight: 400;
-            font-size: 17px;
-            padding: 0 20px 20px 20px;
-            @media (max-width: 850px) {
-              font-size: 12px;
-              padding: 0 20px;
-            }
-            @media (max-width: 450px) {
-              font-size: 23px;
-            }
-          }
-          .review-title{
-font-size: 22px;
-          }
-          .review-desc{
-font-size: 15px;
-color:gray;
-          }
+.slider-main-div {
+  .slider-first-div {
+    padding-top: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    .box {
+      background-color: #66380f;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      @media (max-width: 750px) {
+        margin-top: 85px;
+      }
+      img {
+        height: 60px;
+        width: 60px;
+        border-radius: 65px;
+      }
+
+      h2 {
+        background-color: transparent;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        @media (max-width: 850px) {
+          font-size: 26px;
         }
       }
+      h4 {
+        background-color: transparent;
+        border-radius: 15px;
+        font-weight: 400;
+        font-size: 17px;
+        padding: 0 20px 20px 20px;
+        @media (max-width: 850px) {
+          font-size: 12px;
+          padding: 0 20px;
+        }
+        @media (max-width: 450px) {
+          font-size: 23px;
+        }
+      }
+      .review-title {
+        font-size: 22px;
+      }
+      .review-desc {
+        font-size: 15px;
+        color: gray;
+      }
+    }
+  }
 }

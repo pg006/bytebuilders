@@ -1,70 +1,70 @@
 .offering-main-div {
   color: #ffffff;
-.th-col{
-  @media (max-width:900px) {
-    display: flex !important;
-    width: 100% !important;
+  .th-col {
+    @media (max-width: 900px) {
+      display: flex !important;
+      width: 100% !important;
+    }
+    @media (max-width: 765px) {
+      display: unset !important;
+    }
   }
-  @media (max-width:500px) {
-    display: unset !important;
-  }
-}
-  .first-card { 
+  .first-card {
     background-color: #766bf8;
     border: none;
     border-radius: 15px;
-    &:hover{
-        border: 1px solid #f37d1a;
-      }    
+    &:hover {
+      border: 1px solid #f37d1a;
+    }
   }
   .second-card {
     background-color: #66380f;
     border: none;
     border-radius: 15px;
-    &:hover{
-        border: 1px solid #f37d1a;
-      }
+    &:hover {
+      border: 1px solid #f37d1a;
+    }
   }
   .third-card {
     background-color: #2b64f8;
     border-radius: 15px;
-    &:hover{
-        border: 1px solid #f37d1a;
-      }
-      @media (max-width:500px) {
-        margin-top: 1.5rem;
-      }
+    &:hover {
+      border: 1px solid #f37d1a;
+    }
+    @media (max-width: 765px) {
+      margin-top: 1.5rem;
+    }
   }
   .forth-card {
     background-image: url(../../Assets/Images/person.jpg);
     background-size: 100% 100%;
     background-color: #2b64f8;
     border-radius: 15px;
-    @media (max-width:1000px) {
+    @media (max-width: 1000px) {
       margin-top: 1.5rem;
       margin-right: 1rem !important;
     }
-    @media (max-width:500px) {
+    @media (max-width: 765px) {
       margin-right: 0 !important;
     }
-    &:hover{
-        border: 1px solid #f37d1a;
-      }
+    &:hover {
+      border: 1px solid #f37d1a;
+    }
   }
   .fifth-card {
     background-image: url(../../Assets/Images/desktop_img.png);
     background-size: 100% 100%;
     background-color: #2b64f8;
     border-radius: 15px;
-    @media (max-width:1000px) {
+    @media (max-width: 1000px) {
       margin-left: 1rem !important;
     }
-    @media (max-width:500px) {
+    @media (max-width: 765px) {
       margin-left: 0 !important;
     }
-    &:hover{
-        border: 1px solid #f37d1a;
-      }
+    &:hover {
+      border: 1px solid #f37d1a;
+    }
   }
   .first-div {
     .i-1 {
@@ -82,7 +82,7 @@
       img {
         height: 380px;
         width: 100%;
-        @media (max-width:700px) {
+        @media (max-width: 700px) {
           height: 270px;
           margin: 0 !important;
         }

@@ -38,14 +38,14 @@
 
   .second-div {
     .second-col {
-      @media (max-width: 500px) {
+      @media (max-width: 765px) {
         margin-top: 1rem !important;
         padding-top: 0 !important;
       }
     }
 
     .third-col {
-      @media (max-width: 500px) {
+      @media (max-width: 765px) {
         margin-top: 1rem !important;
         padding-top: 0 !important;
       }
@@ -63,8 +63,8 @@
         height: 40vh;
       }
 
-      @media (max-width: 500px) {
-        height: 60vh;
+      @media (max-width: 768px) {
+        height: 50vh;
       }
     }
 
@@ -80,8 +80,8 @@
         height: 40vh;
       }
 
-      @media (max-width: 500px) {
-        height: 60vh;
+      @media (max-width: 768px) {
+        height: 50vh;
       }
     }
 
@@ -97,8 +97,8 @@
         height: 40vh;
       }
 
-      @media (max-width: 500px) {
-        height: 60vh;
+      @media (max-width: 768px) {
+        height: 50vh;
       }
     }
 
@@ -114,8 +114,8 @@
         height: 40vh;
       }
 
-      @media (max-width: 500px) {
-        height: 60vh;
+      @media (max-width: 768px) {
+        height: 50vh;
       }
     }
 
@@ -131,8 +131,8 @@
         height: 40vh;
       }
 
-      @media (max-width: 500px) {
-        height: 60vh;
+      @media (max-width: 768px) {
+        height: 50vh;
       }
     }
 
@@ -148,8 +148,8 @@
         height: 40vh;
       }
 
-      @media (max-width: 500px) {
-        height: 60vh;
+      @media (max-width: 768px) {
+        height: 50vh;
       }
     }
 
@@ -164,21 +164,18 @@
         height: 40vh;
       }
 
-      @media (max-width: 500px) {
-        height: 60vh;
+      @media (max-width: 768px) {
+        height: 50vh;
       }
 
       .content-div {
         h1 {
-          // text-align: center;
           font-size: 16px;
           color: #f37d1a;
         }
 
         p {
-          // text-align: center;
           font-size: 16px;
-          // line-height: 40px;
         }
 
         .discover-btn {
@@ -189,7 +186,7 @@
           border: none;
           border-radius: 5px;
 
-          @media (max-width: 500px) {
+          @media (max-width: 768px) {
             margin-top: 15px !important;
           }
         }
