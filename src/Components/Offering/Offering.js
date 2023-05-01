@@ -3,7 +3,7 @@ import { Card, Col, Row } from "react-bootstrap";
 import { FaPencilRuler } from "react-icons/fa";
 import { MdBarChart } from "react-icons/md";
 import { RiShieldKeyholeFill } from "react-icons/ri";
-import mobileapp from "../../Assets/Images/mobile_app.png";
+import mobileapp from "../../assets/images/mobile_app.png";
 import "./Offering.scss";
 import { BiCodeBlock } from "react-icons/bi";
 

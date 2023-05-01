@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import "./Services.scss";
 import { HiLightBulb } from "react-icons/hi";
 import { TbWorld } from "react-icons/tb";
-import desktop from "../../Assets/Images/desktop_img.png";
+import desktop from "../../assets/images/desktop_img.png";
 import { BiCodeBlock } from "react-icons/bi";
 
 const Services = () => {

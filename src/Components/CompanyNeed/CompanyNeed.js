@@ -1,7 +1,7 @@
 import React from 'react'
 import './CompanyNeed.scss'
 import { Col, Row } from 'react-bootstrap'
-import person_image from '../../Assets/Images/person_image.png'
+import person_image from '../../assets/images/person_image.png'
 const CompanyNeed = () => {
   return (
     <React.Fragment>

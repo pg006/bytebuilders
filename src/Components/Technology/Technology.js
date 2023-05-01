@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "./Technology.scss";
-import mobile from "../../Assets/Images/mo-app.jpeg";
-import desktop from "../../Assets/Images/application.jpeg";
-import m_1 from '../../Assets/Images/marketing.jpeg'
+import mobile from "../../assets/images/mo-app.jpeg";
+import desktop from "../../assets/images/application.jpeg";
+import m_1 from '../../assets/images/marketing.jpeg'
 const Technology = () => {
   return (
     <React.Fragment>
@@ -42,11 +42,9 @@ const Technology = () => {
           <Col lg={4} md={4} sm={12} xs={12}>
             <div className="boxs">
               <div className="box px-4 pt-4">
-                <h2>Digital Marketing & Branding</h2>
+                <h2>Automation</h2>
                 <h4>
-                  Bytebuilders Infotech offers digital marketing services to
-                  help businesses increase their online visibility, drive
-                  traffic.
+                  Bytebuilders Infotech offers  automation services with a high level of technical expertise, knowledge of different automation solutions, and a deep understanding of a client's business needs and goals.
                 </h4>
                 <img src={m_1} alt="link" className="my-2"/>
               </div>

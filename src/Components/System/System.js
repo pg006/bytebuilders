@@ -78,7 +78,7 @@ const System = () => {
               </Card>
             </Col>
             <Col lg={3} md={6} sm={12} className="bottom-col">
-              <Card className="first-card">
+              <Card className="second-card">
                 <div className="first p-4">
                   <div className="d-flex justify-content-center">
                     <div className="icon-div d-flex justify-content-center align-items-center">

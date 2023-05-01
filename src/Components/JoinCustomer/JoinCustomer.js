@@ -1,22 +1,22 @@
 import React from "react";
 import "./JoinCustomer.scss";
-import image_1 from "../../Assets/Images/image_1.png";
-import image_2 from "../../Assets/Images/image_2.png";
-import image_3 from "../../Assets/Images/image_3.png";
-import image_4 from "../../Assets/Images/image_4.png";
-import image_5 from "../../Assets/Images/image_5.png";
-import image_6 from "../../Assets/Images/image_6.png";
-import image_7 from "../../Assets/Images/image_7.png";
-import image_8 from "../../Assets/Images/image_8.png";
-import image_9 from "../../Assets/Images/image_9.png";
-import image_10 from "../../Assets/Images/image_10.png";
+import image_1 from "../../assets/images/image_1.png";
+import image_2 from "../../assets/images/image_2.png";
+import image_3 from "../../assets/images/image_3.png";
+import image_4 from "../../assets/images/image_4.png";
+import image_5 from "../../assets/images/image_5.png";
+import image_6 from "../../assets/images/image_6.png";
+import image_7 from "../../assets/images/image_7.png";
+import image_8 from "../../assets/images/image_8.png";
+import image_9 from "../../assets/images/image_9.png";
+import image_10 from "../../assets/images/image_10.png";
 
 const JoinCustomer = () => {
   return (
     <React.Fragment>
       <div className="join-customer-main-div py-4">
         <h3 className="d-flex justify-content-center py-3">
-          Join our 30,000+ happy customers
+          Join our 200+ happy customers
         </h3>
         <div className="image-div mb-4">
           <img src={image_1} alt="image1" className="image my-4 mx-3" />

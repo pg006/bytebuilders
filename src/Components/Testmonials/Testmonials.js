@@ -1,6 +1,6 @@
 import React from "react";
 import "./Testmonials.scss";
-import person from "../../Assets/Images/person.jpg";
+import person from "../../assets/images/person.jpg";
 import Slider from "react-slick";
 
 const Testmonials = () => {

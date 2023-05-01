@@ -52,7 +52,7 @@ const GetinTouch = () => {
                   <h5 className="">Head Office</h5>
                   <h6>
                     319, Platinum Point Opp CNG Pump, Sudama Chowk, Mota
-                    Varachha,
+                    Varachha
                   </h6>
                   <h6> Surat - 394101 </h6>
                 </div>
@@ -62,9 +62,9 @@ const GetinTouch = () => {
               <Card>
                 <div className="email-div p-3">
                   <MdMarkEmailRead className="i-1 mb-5" />
-                  <h5>Caontact Us</h5>
-                  <h6>info@bytebuildersinfotech.com</h6>
-                  <h6>Phone : +917567673046</h6>
+                  <h5>Contact Us</h5>
+                  <h6>Mail : <a href = "mailto: info@bytebuildersinfotech.com">info@bytebuildersinfotech.com</a> </h6>
+                  <h6>Phone : <a href="tel:+9175676 73046">+9175676 73046</a></h6>
                 </div>
               </Card>
             </Col>

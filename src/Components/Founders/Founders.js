@@ -1,10 +1,10 @@
 import React from "react";
 import "./Founders.scss";
 import { Card, Col, Row } from "react-bootstrap";
-import per_1 from "../../Assets/Images/per-1.jpg";
-import per_2 from "../../Assets/Images/per-2.jpg";
-import per_3 from "../../Assets/Images/per-3.jpg";
-import per_4 from "../../Assets/Images/per-4.jpg";
+import per_1 from "../../assets/images/per-1.jpg";
+import per_2 from "../../assets/images/per-2.jpg";
+import per_3 from "../../assets/images/per-3.jpg";
+import per_4 from "../../assets/images/per-4.jpg";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";

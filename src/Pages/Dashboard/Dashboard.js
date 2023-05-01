@@ -1,18 +1,18 @@
 import React from "react";
-import Footer from "../../Components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 import "./Dashboard.scss";
-import Navbar from "../../Components/Navbar/Navbar";
-import JoinCustomer from "../../Components/JoinCustomer/JoinCustomer";
-import Technology from "../../Components/Technology/Technology";
-import DelivarITSolution from "../../Components/DelivarITSolution/DelivarITSolution";
-import Services from "../../Components/Services/Services";
-import Offering from "../../Components/Offering/Offering";
-import Testmonials from "../../Components/Testmonials/Testmonials";
-import Works from "../../Components/Works/Works";
-import Performance from "../../Components/Performance/Performance";
-import System from "../../Components/System/System";
-import Portfolio from "../../Components/Portfolio/Portfolio";
-import CompanyNeed from "../../Components/CompanyNeed/CompanyNeed";
+import Navbar from "../../components/Navbar/Navbar";
+import JoinCustomer from "../../components/JoinCustomer/JoinCustomer";
+import Technology from "../../components/Technology/Technology";
+import DelivarITSolution from "../../components/DelivarITSolution/DelivarITSolution";
+import Services from "../../components/Services/Services";
+import Offering from "../../components/Offering/Offering";
+import Works from "../../components/Works/Works";
+import Performance from "../../components/Performance/Performance";
+import System from "../../components/System/System";
+import Portfolio from "../../components/Portfolio/Portfolio";
+import CompanyNeed from "../../components/CompanyNeed/CompanyNeed";
+import Testmonials from "../../components/Testmonials/Testmonials";
 const Dashboard = () => {
   return (
     <React.Fragment>

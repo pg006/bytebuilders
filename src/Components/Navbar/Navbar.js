@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Nav, Navbar, Row } from "react-bootstrap";
 import "./Navbar.scss";
-import LogoDark from "../../Assets/Images/Logo White.png";
+import LogoDark from "../../assets/images/Logo White.png";
 import { BsArrowRightShort } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
 import { VscThreeBars } from "react-icons/vsc";

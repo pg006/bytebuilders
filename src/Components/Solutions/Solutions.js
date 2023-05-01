@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Col, Row } from "react-bootstrap";
 import "./Solutions.scss";
-import aboutus from "../../Assets/Images/aboutus.jpg";
+import aboutus from "../../assets/images/aboutus.jpg";
 const Solutions = () => {
   return (
     <React.Fragment>

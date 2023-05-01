@@ -1,10 +1,7 @@
 import React from "react";
 import { Col, Nav, Row } from "react-bootstrap";
-import { BsInstagram, BsTwitter } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
 import "./Footer.scss";
-import logolight from "../../Assets/Images/Logo White.png";
-import { AiFillYoutube } from "react-icons/ai";
+import logolight from "../../assets/images/Logo White.png";
 
 const Footer = () => {
   return (
@@ -21,20 +18,6 @@ const Footer = () => {
                   319, Platinum Point Opp CNG Pump, Sudama Chowk, Mota Varachha,
                   Surat - 394101
                 </h5>
-              </div>
-              <div className="icon-div my-3 d-flex">
-                <div className="icon">
-                  <FaFacebookF />
-                </div>
-                <div className="icon">
-                  <BsInstagram />
-                </div>
-                <div className="icon">
-                  <BsTwitter />
-                </div>
-                <div className="icon">
-                  <AiFillYoutube />
-                </div>
               </div>
             </Col>
             <Col lg={8} md={12} sm={12}>
@@ -107,7 +90,7 @@ const Footer = () => {
       </div>
       <div className="secon-div d-flex justify-content-between py-4 px-4">
         <div className="name-div">
-          Copyright © 2023 techbiz, All rights reserved. Powered by MoxCreative.
+          Copyright © 2023 Bytebuilders Infotech, All rights reserved.
         </div>
         <div className="link-div d-flex">
           <Nav.Link eventKey="" className="link-name mx-2">

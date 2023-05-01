@@ -1,8 +1,8 @@
 import React from "react";
-import NavBar from "../../Components/Navbar/Navbar";
+import NavBar from "../../components/Navbar/Navbar";
 import "./ContactUS.scss";
 import GetinTouch from "./GetinTouch/GetinTouch";
-import Footer from "../../Components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 import Map from "./Map/Map";
 import SendMessage from "./SendMessage/SendMessage";
 
